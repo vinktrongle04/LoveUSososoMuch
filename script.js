@@ -1,4 +1,5 @@
 // Love Website JavaScript
+import './config.js';
 document.addEventListener('DOMContentLoaded', function() {
     
     // Apply configuration
