@@ -111,9 +111,9 @@ document.addEventListener('DOMContentLoaded', function() {
             bgMusic.play().then(() => {
                 musicToggle.textContent = '🔊';
                 isPlaying = true;
-            }).catch(() => {
+            }).catch((err) => {
                 musicToggle.textContent = '❌';
-                console.log('Music could not be played');
+                console.log('Music could not be played:', err);
             });
         }
     });
@@ -207,14 +207,14 @@ document.addEventListener('DOMContentLoaded', function() {
         messageDiv.style.top = '50%';
         messageDiv.style.left = '50%';
         messageDiv.style.transform = 'translate(-50%, -50%)';
-        messageDiv.style.background = 'linear-gradient(135deg, #FF69B4, #FF1493)';
+        messageDiv.style.background = 'linear-gradient(135deg, #6C63FF, #00D2FF)';
         messageDiv.style.color = 'white';
         messageDiv.style.padding = '1rem 2rem';
         messageDiv.style.borderRadius = '2rem';
-        messageDiv.style.fontFamily = 'Great Vibes, cursive';
+        messageDiv.style.fontFamily = 'Playfair Display, serif';
         messageDiv.style.fontSize = '1.5rem';
         messageDiv.style.fontWeight = '600';
-        messageDiv.style.boxShadow = '0 10px 30px rgba(255, 105, 180, 0.4)';
+        messageDiv.style.boxShadow = '0 10px 30px rgba(108, 99, 255, 0.4)';
         messageDiv.style.zIndex = '10000';
         messageDiv.style.animation = 'glow 2s ease-in-out infinite alternate';
         document.body.appendChild(messageDiv);
@@ -347,13 +347,13 @@ document.addEventListener('DOMContentLoaded', function() {
         messageDiv.style.left = '50%';
         messageDiv.style.transform = 'translate(-50%, -50%)';
         messageDiv.style.background = 'rgba(255, 255, 255, 0.95)';
-        messageDiv.style.color = '#FF1493';
+        messageDiv.style.color = '#6C63FF';
         messageDiv.style.padding = '1.5rem 2rem';
         messageDiv.style.borderRadius = '1rem';
-        messageDiv.style.fontFamily = 'Cormorant Garamond, serif';
+        messageDiv.style.fontFamily = 'Outfit, sans-serif';
         messageDiv.style.fontSize = '1.3rem';
         messageDiv.style.fontWeight = '600';
-        messageDiv.style.boxShadow = '0 10px 30px rgba(255, 105, 180, 0.3)';
+        messageDiv.style.boxShadow = '0 10px 30px rgba(108, 99, 255, 0.3)';
         messageDiv.style.zIndex = '10000';
         messageDiv.style.textAlign = 'center';
         messageDiv.style.maxWidth = '90%';

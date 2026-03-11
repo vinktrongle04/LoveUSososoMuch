@@ -1,53 +1,53 @@
 // Love Website Configuration
-// Customize this file to personalize your love website
+// Website từ Dino (anh) dành tặng cho XCường (em/baby)
 
 const CONFIG = {
-    // Partner's name (will be used throughout the website)
-    partnerName: "Your Love's Name",
+    // Tên người nhận (XCường - người mà website dành tặng)
+    partnerName: "XCường",
     
-    // Your name (optional, for signature)
-    yourName: "Your Name",
+    // Tên người tạo (Dino - người làm website)
+    yourName: "Dino",
     
-    // Custom messages
+    // Custom messages (từ góc nhìn của anh Dino gửi đến em XCường)
     messages: {
-        subtitle: "you light up my world in ways words can't express ✨",
-        loveNote: "you are the sunshine in my darkest days and the stars in my night sky. Every moment with you feels like magic, and I fall in love with you more each day. You're not just my girlfriend, you're my best friend, my soulmate, and my everything. I love you beyond words! 💖",
-        specialMessage: "You came into my life like a beautiful surprise, and now I can't imagine my world without you. Your smile brightens my darkest days, your laugh is my favorite melody, and your love is the greatest gift I've ever received.",
-        specialMessage2: "Thank you for being you, for loving me, and for making every day feel like a celebration. I promise to love you, cherish you, and make you smile every single day of our lives together.",
-        signature: "With all my love, Forever yours 💕"
+        subtitle: "baby à, em là ánh sáng trong cuộc đời anh, là tất cả những gì anh cần ✨",
+        loveNote: "XCường ơi, em là nắng ấm trong những ngày anh buồn, là vì sao trong đêm tối của anh. Mỗi khoảnh khắc bên em đều như phép màu, và anh yêu em nhiều hơn mỗi ngày. Em không chỉ là người yêu, mà là bạn thân, là tri kỷ, là tất cả của anh. Anh yêu baby nhiều lắm! 💖",
+        specialMessage: "Em đến cuộc đời anh như một điều kỳ diệu, và giờ anh không thể tưởng tượng thế giới này thiếu em. Nụ cười em chiếu sáng những ngày u ám nhất của anh, tiếng cười em là giai điệu anh yêu nhất, và tình yêu em là món quà lớn nhất anh từng nhận được.",
+        specialMessage2: "Cảm ơn em vì đã là chính mình, vì đã yêu anh, và vì đã làm mỗi ngày trở nên đáng sống. Anh hứa sẽ yêu em, trân trọng em, và làm baby cười mỗi ngày trong cuộc đời chúng mình.",
+        signature: "Với tất cả tình yêu của anh, Mãi yêu em — Dino 💕"
     },
     
     // Memory descriptions
     memories: {
-        lateNight: "Those endless conversations that made us forget about time",
-        firstMeeting: "I know the day we meet will be magical and unforgettable",
-        care: "Your caring nature, sweet voice, and adorable cuteness"
+        lateNight: "Những cuộc trò chuyện đêm khuya khiến bọn mình quên mất thời gian",
+        firstMeeting: "Anh biết ngày bọn mình gặp nhau sẽ thật kỳ diệu và khó quên",
+        care: "Sự quan tâm, giọng nói ngọt ngào, và sự đáng yêu của em"
     },
     
     // Character descriptions
     characters: {
-        partner: "My beautiful angel",
-        you: "Forever yours"
+        partner: "Em bé của anh 💫",
+        you: "Mãi bên em 💙"
     },
     
     // Special messages for different kiss counts
     kissMessages: {
-        10: "10 kisses! You're so sweet! 💕",
-        50: "50 kisses! I'm falling deeper in love! 💖",
-        100: "100 kisses! You're my everything! 💘"
+        10: "10 nụ hôn! Baby của anh ngọt ngào quá! 💕",
+        50: "50 nụ hôn! Anh càng ngày càng u mê em rồi! 💖",
+        100: "100 nụ hôn! Em là tất cả của anh, XCường à! 💘"
     },
     
     // Character interaction messages
     characterMessages: {
-        partner: "you're the most beautiful person in the world! 💕",
-        you: "I'm so lucky to have you in my life! 💖"
+        partner: "em là chàng trai tuyệt vời nhất trên đời! 💕",
+        you: "Anh thật may mắn khi có baby trong đời! 💖"
     },
     
     // Memory effect messages
     memoryMessages: {
-        lateNight: "Those late nights talking with you are my favorite memories 🌙✨",
-        firstMeeting: "I know the day we meet will be magical and unforgettable 💫💕",
-        care: "Your caring nature, sweet voice, and adorable cuteness melt my heart 💕😍"
+        lateNight: "Những đêm khuya nói chuyện với em là kỷ niệm đẹp nhất của anh 🌙✨",
+        firstMeeting: "Anh biết ngày bọn mình gặp nhau sẽ thật kỳ diệu và khó quên 💫💕",
+        care: "Sự quan tâm, giọng nói và sự đáng yêu của em làm tan chảy trái tim anh 💕😍"
     }
 };
 

@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Website Generator 💕</title>
+    <title>For XCường 💕</title>
     <link rel="stylesheet" href="styles.css">
     <script src="config.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Alex+Brush&family=Allura&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Music Control -->
     <div class="music-control">
         <button id="musicToggle" class="music-btn">🎵</button>
-        <audio id="bgMusic" loop>
-            <source src="https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0c6ff1bab.mp3" type="audio/mp3">
-            <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73c3a.mp3" type="audio/mp3">
+        <audio id="bgMusic" loop preload="auto">
+            <!-- Local audio file to bypass external link restrictions -->
+            <source src="music.mp3" type="audio/mpeg">
         </audio>
     </div>
 
@@ -36,16 +36,10 @@
             <div class="character-container">
                 <div class="character" id="partner">
                     <div class="character-avatar">
-                        <svg viewBox="0 0 100 100" class="character-svg">
-                            <circle cx="50" cy="35" r="20" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
-                            <path d="M30 60 Q50 45 70 60 Q50 80 30 60" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
-                            <circle cx="42" cy="32" r="2" fill="#FF1493"/>
-                            <circle cx="58" cy="32" r="2" fill="#FF1493"/>
-                            <path d="M45 40 Q50 45 55 40" stroke="#FF1493" stroke-width="2" fill="none"/>
-                        </svg>
+                        <img src="XC.png" alt="XCường" class="character-photo" />
                     </div>
-                    <h3 id="partnerName">Your Love 💕</h3>
-                    <p id="partnerDescription">My beautiful angel</p>
+                    <h3 id="partnerName">XCường 💕</h3>
+                    <p id="partnerDescription">Người em yêu nhất 💫</p>
                 </div>
                 
                 <div class="love-heart">
@@ -56,16 +50,10 @@
 
                 <div class="character" id="you">
                     <div class="character-avatar">
-                        <svg viewBox="0 0 100 100" class="character-svg">
-                            <circle cx="50" cy="35" r="20" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
-                            <rect x="35" y="55" width="30" height="25" rx="5" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
-                            <circle cx="42" cy="32" r="2" fill="#4682B4"/>
-                            <circle cx="58" cy="32" r="2" fill="#4682B4"/>
-                            <path d="M45 40 Q50 45 55 40" stroke="#4682B4" stroke-width="2" fill="none"/>
-                        </svg>
+                        <img src="TVinh.png" alt="Dino" class="character-photo" />
                     </div>
-                    <h3 id="yourName">Me 💙</h3>
-                    <p id="yourDescription">Forever yours</p>
+                    <h3 id="yourName">Dino 💙</h3>
+                    <p id="yourDescription">Mãi bên anh 💙</p>
                 </div>
             </div>
         </section>
